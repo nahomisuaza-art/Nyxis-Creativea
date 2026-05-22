@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Berlin Sans FB Demi Bold';
+    src: url('fonts/Berlin Sans FB Demi Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+   
+}
+
+.header {
+    background: 7c98f1;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0PX 40px;
+}
+
+.menu-left, .menu-right {
+    display: flex;
+    list-style: none;
+}
+
+.menu-left li, .menu-right li {
+    margin: 10PX 74px;
+    padding: 0PX 10PX;
+}
+
+.menu-left li a, .menu-right li a {
+    color:#7291d3;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+     font-family: 'Berlin Sans FB Demi Bold';
+}
+
+.menu-left li a:hover, .menu-right li a:hover {
+    background: #2575BE;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.logo {
+    flex: 1000;
+    text-align: center;
+}
+
+.logo img {
+    max-height: 90px;
+}
+
+
+   
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #d4e1e9;
+}
+
+p {
+    color: #d4e1e9;
+}
+
+footer {
+  background-color: #d4e1e9; /* Azul claro */
+  
+  text-align: center;
+  padding: 20px 0;
+}
+.container p {
+  color: #7291d3;
+  }
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    width: 74px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float img:hover {
+    transform: scale(1.1);
+}
+.cuadro1{
+    width: 1350px;
+   height: 600px;
+   
+    background-color: #d4e1e9;
+} 
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #309FE5;
+}
+
+.separator::before {
+    margin-right: 10px;
+}
+
+.separator::after {
+    margin-left: 10px;
+}
+
+.separator span {
+    font-size: 45px;
+    font-weight: bold;
+     font-family: 'Berlin Sans FB Demi Bold';
+     color: #94aced;
+}
+
+.imgs{
+ width: 1100px;
+
+height: 290px;
+padding:  8px;
+  display: block;
+    margin: 0 auto;
+ 
+  position: relative;
+}
+.imgs1{
+width: 1100px;
+
+height: 290px;
+padding:  8px;
+  overflow: hidden;
+  position: relative; 
+  display: block;
+    margin: 0 auto;
+}
+.boton {
+    position: absolute;
+    top: 75%; /* Centra el botón verticalmente */
+    left: 15%; /* Centra el botón horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para que el botón esté verdaderamente centrado */
+    padding: 10px 20px;
+    background-color:  #94aced;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Berlin Sans FB Demi Bold';
+    list-style: none;
+}
+
+
+.boton:hover {
+    background-color: #0056b3;
+}
+.boton1 {
+    position: absolute;
+    top: 90%; /* Centra el botón verticalmente */
+    left: 50%; /* Centra el botón horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la posición para que el botón esté verdaderamente centrado */
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Berlin Sans FB Demi Bold';
+    
+}
+
+
+.boton1:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+.container1 {
+    display: flex;
+    color: #7291d3;
+    align-items: center;
+    height: 310px;
+    padding: 50px;
+    font-family: 'Berlin Sans FB Demi Bold';
+    font-size: 26px;
+
+}
+
+.content {
+    flex: 1;
+    text-align: center;
+}
+
+.map-container {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #007BFF; /* Borde azul */
+    border-radius: 50%; /* Hace que el contenedor sea redondo */
+    overflow: hidden; /* Asegura que el contenido no salga del contenedor redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto más elegante */
+    margin-left: 20px; /* Espacio del contenedor con respecto al contenido */
+}
+
+.map-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen se ajuste bien al contenedor */
+}
+
+.elementor-widget-container {
+    text-align: center;
+}
+
+.elementor-icon-list-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.elementor-icon-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.elementor-icon-list-icon {
+    margin-right: 10px;
+}
+
+.elementor-icon-list-item a {
+    text-decoration: none;
+    color: #309FE5;
+}
+.iconos{
+    width: 10px;
+    height: 10px;
+}

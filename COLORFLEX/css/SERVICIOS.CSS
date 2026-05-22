@@ -1,0 +1,21 @@
+.boton1 {
+    position: absolute;
+    top: 0%; /* Centra el botón verticalmente */
+    left: 100px; /* Centra el botón horizontalmente */
+    transform: translate(); /* Ajusta la posición para que el botón esté verdaderamente centrado */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Berlin Sans FB Demi Bold';
+    list-style: none;
+}
+
+
+.boton1:hover {
+    background-color: #0056b3;
+}

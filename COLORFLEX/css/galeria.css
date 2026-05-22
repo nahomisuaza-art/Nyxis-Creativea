@@ -1,0 +1,31 @@
+.gallery {
+  width: 1300px;
+padding:  50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  
+  animation: slide 25s infinite;
+}
+
+.slide {
+  
+  flex-shrink: 0;
+}
+
+.slide img {
+ 
+  display: block;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  16.67% { transform: translateX(0); }
+  33.34% { transform: translateX(-100%); }
+  50.01% { transform: translateX(-200%); }
+  66.68% { transform: translateX(-300%); }
+ 
+}

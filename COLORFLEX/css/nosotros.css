@@ -1,0 +1,31 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.mission, .vision {
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #79AFE5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mission h2, .vision h2 {
+    color: #2575BE;
+}
+
+.mission p, .vision p {
+    color: #FFF;
+    
+}
